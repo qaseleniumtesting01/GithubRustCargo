@@ -6,9 +6,8 @@
 trigger:
 - master
 
-# pool:
-#   vmImage: ubuntu-latest
-pool: AzureAutomationServer
+pool:
+  vmImage: ubuntu-latest
 
 steps:
 - script: echo Hello, world!
