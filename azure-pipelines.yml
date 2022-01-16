@@ -10,7 +10,6 @@ trigger:
 #   vmImage: ubuntu-latest
 pool: AzureAutomationServer
 
-container:
 steps:
 - script: echo Hello, world!
   displayName: 'Run a one-line script'
